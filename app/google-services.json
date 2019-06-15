@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "535942969697",
+    "firebase_url": "https://doc4wheel-5b232.firebaseio.com",
+    "project_id": "doc4wheel-5b232",
+    "storage_bucket": "doc4wheel-5b232.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535942969697:android:43405e3bae4b45f9",
+        "android_client_info": {
+          "package_name": "com.malik.doc4wheel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535942969697-q3hb8941l7unk719do9glmn13pbvnk3m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.malik.doc4wheel",
+            "certificate_hash": "19747b855c9c4f3a6c8a35c5d912ce9b28c792d9"
+          }
+        },
+        {
+          "client_id": "535942969697-hk9v4p9cfot8t16jiji1b56c6nt942kl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1lhh0KWBw7Wy620_b0MTJqIrwcifV7dY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535942969697-hk9v4p9cfot8t16jiji1b56c6nt942kl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

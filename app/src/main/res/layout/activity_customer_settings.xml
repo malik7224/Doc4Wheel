@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context="com.malik.doc4wheel.Customer.CustomerSettingsActivity"
+    android:orientation="vertical"
+    android:padding="20sp">
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="64dp"
+        android:src="@mipmap/ic_default_user"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/layout_height"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_edit_text"
+        android:drawableLeft="@drawable/person_icon_black"
+        android:drawablePadding="@dimen/icon_padding"
+        android:hint="@string/name_hint"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/icon_padding"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/profileImage"
+        app:layout_constraintStart_toStartOf="@+id/profileImage"
+        app:layout_constraintTop_toBottomOf="@+id/profileImage"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/layout_height"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_edit_text"
+        android:drawableLeft="@drawable/phone_icon_black"
+        android:drawablePadding="@dimen/icon_padding"
+        android:hint="@string/phone_hint"
+        android:inputType="number"
+        android:paddingLeft="@dimen/icon_padding"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/customer_email"
+        app:layout_constraintStart_toStartOf="@+id/customer_email"
+        app:layout_constraintTop_toBottomOf="@+id/customer_email"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/layout_height"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/confirm_button_text"
+        android:textAllCaps="false"
+        android:textColor="@color/backgroundColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/phone"
+        app:layout_constraintStart_toStartOf="@+id/phone"
+        app:layout_constraintTop_toBottomOf="@+id/phone"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/layout_height"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/back_button_text"
+        android:textAllCaps="false"
+        android:textColor="@color/backgroundColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/confirm"
+        app:layout_constraintStart_toStartOf="@+id/confirm"
+        app:layout_constraintTop_toBottomOf="@+id/confirm"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/customer_email"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/layout_height"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_edit_text"
+        android:drawableLeft="@drawable/email_icon_black"
+        android:drawablePadding="@dimen/icon_padding"
+        android:ems="10"
+        android:hint="@string/email_hint"
+        android:textSize="@dimen/text_size"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="@dimen/icon_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/name"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

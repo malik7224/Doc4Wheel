@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Sun Aug 05 23:52:27 PKT 2018
+1.base=D\:\\Final Year Project\\Doc4Wheel\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=D\:\\Final Year Project\\Doc4Wheel\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+1.path=classes.dex

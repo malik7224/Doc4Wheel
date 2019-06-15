@@ -33,7 +33,7 @@ public class HistoryActivity extends AppCompatActivity {
     private RecyclerView mHistoryRecyclerView;
     private RecyclerView.Adapter mHistoryAdapter;
     private RecyclerView.LayoutManager mHistoryLayoutManager;
-
+//
     private TextView mBalance;
 
     private Double Balance = 0.0;
